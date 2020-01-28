@@ -1,0 +1,18 @@
+.RoomSelector {
+  width: 30%;
+  border-right: 1px solid #71a95a;
+}
+
+.RoomSelector__item {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding: 0 15px;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #71a95a;
+}
+
+.RoomSelector__item_current {
+  background-color: #71a95a;
+}

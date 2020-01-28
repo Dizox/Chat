@@ -1,0 +1,53 @@
+.MessagesList {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 70%;
+  padding: 15px;
+}
+
+.MessagesList__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow-y: auto;
+  margin-bottom: 30px;
+  padding-right: 15px;
+}
+
+.MessagesList__message {
+  display: inline;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.MessagesList__message_my {
+  align-self: flex-end;
+  border: 1px solid tomato;
+}
+
+.MessagesList__form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.MessagesList__textarea {
+  width: 90%;
+  padding: 15px;
+  resize: none;
+  border: 1px solid rgb(0, 188, 135);
+}
+
+.MessagesList__submit {
+  width: 40px;
+  height: 40px;
+  margin-left: 15px;
+  cursor: pointer;
+  background: url('./img/sendArrow.png') no-repeat center / contain;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 40px;
+}
