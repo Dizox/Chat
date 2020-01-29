@@ -18,14 +18,15 @@
   flex-direction: column;
   margin: 5px 0;
   padding: 10px;
-  border: 2px solid black;
+  border: 1px solid black;
   border-radius: 10px;
   word-wrap: break-word;
 }
 
 .MessagesList__message_my {
   align-self: flex-end;
-  border: 2px solid tomato;
+  background-color: rgb(232, 234, 255);
+  border: none;
 }
 
 .MessagesList__form {
