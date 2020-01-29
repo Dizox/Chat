@@ -3,7 +3,12 @@
   width: 950px;
   max-width: calc(100% - 30px);
   min-width: 50%;
-  height: calc(80vh - 30px);
+  height: calc(90vh - 30px);
   margin: 15px auto;
   border: 1px solid rgb(0, 188, 135);
+}
+
+.Talk__messages {
+  width: 70%;
+  position: relative;
 }

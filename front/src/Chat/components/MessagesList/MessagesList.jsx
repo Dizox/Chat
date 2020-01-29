@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { connect } from 'react-redux';
 import { addMessage, createRoom } from '../../../Actions'
 import './MessagesList.css';
+import TopNav from '../TopNav/TopNav'
 import { socket } from '../../../FileSocket'
 
 export function MessagesList({ users, messages, currentUserId, currentRoomId, handleAddMessage, handleCreateRoom }) {
@@ -39,6 +40,7 @@ export function MessagesList({ users, messages, currentUserId, currentRoomId, ha
 
   return (
     <div className='MessagesList'>
+      <TopNav />
       <div className='MessagesList__container'>
         {messages.map (message => 
         <div className={message.userId === currentUserId ? 'MessagesList__message MessagesList__message_my' : 'MessagesList__message'}>

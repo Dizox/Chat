@@ -1,18 +1,15 @@
 .MessagesList {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   width: 70%;
-  padding: 15px;
 }
 
 .MessagesList__container {
   display: flex;
+  height: calc(100% - 50px - 147px);
   flex-direction: column;
   align-items: flex-start;
   overflow-y: auto;
-  margin-bottom: 30px;
   padding: 0 15px;
+  margin: 15px;
 }
 
 .MessagesList__message {
@@ -35,6 +32,7 @@
   display: flex;
   align-items: center;
   width: 100%;
+  padding: 15px;
 }
 
 .MessagesList__textarea {
