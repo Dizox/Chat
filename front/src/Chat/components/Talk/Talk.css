@@ -5,7 +5,10 @@
   min-width: 50%;
   height: calc(90vh - 30px);
   margin: 15px auto;
-  border: 1px solid rgb(0, 188, 135);
+  background-color: #F5F8FC;
+  border: 3px solid #C5D0E6;
+  border-radius: 10px;
+  background-image: linear-gradient(to top, rgb(232, 234, 255), rgb(234, 236, 255), rgb(236, 238, 255), rgb(238, 240, 255), rgb(240, 242, 255), rgb(242, 244, 255), rgb(245, 245, 255), rgb(247, 247, 255), rgb(249, 249, 255), rgb(251, 251, 255), rgb(253, 253, 255), rgb(255, 255, 255));
 }
 
 .Talk__messages {
