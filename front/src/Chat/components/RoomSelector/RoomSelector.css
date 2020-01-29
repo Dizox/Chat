@@ -1,5 +1,7 @@
 .RoomSelector {
   width: 30%;
+  height: 100%;
+  overflow-y: auto;
   border-right: 2px solid #C5D0E6;
 }
 

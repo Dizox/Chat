@@ -1,21 +1,26 @@
 .MessagesList {
+  display: flex;
   width: 70%;
+}
+
+.MessagesList__main {
+  height: 100%;
 }
 
 .MessagesList__container {
   display: flex;
-  height: calc(100% - 50px - 147px);
   flex-direction: column;
   align-items: flex-start;
+  height: calc(100% - 50px - 147px);
   overflow-y: scroll;
   padding: 0 15px;
   margin: 15px;
 }
 
 .MessagesList__message {
-  max-width: 60%;
   display: inline-flex;
   flex-direction: column;
+  max-width: 60%;
   margin: 5px 0;
   padding: 10px;
   border: 1px solid black;

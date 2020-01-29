@@ -38,6 +38,7 @@ const initialState = {
   ],
   currentUserId: null,
   currentRoomId: 1,
+  usersListIsOpen: false,
 };
 
 function reducer(state, action) {
@@ -72,6 +73,12 @@ function reducer(state, action) {
           }
         ],
         currentRoomId: action.payload.id
+      }
+
+    case 'OPEN_USER_LIST':
+      return {
+        ...state,
+        usersListIsOpen: action.payload
       }
 
     default:

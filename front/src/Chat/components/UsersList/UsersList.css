@@ -1,0 +1,19 @@
+.UsersList {
+  width: 50%;
+  max-width: 100%;
+  border-left: 2px solid #C5D0E6;
+}
+
+.UsersList__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  border-bottom: 2px solid #C5D0E6;
+}
+
+.UsersList__container {
+  padding: 15px;
+}

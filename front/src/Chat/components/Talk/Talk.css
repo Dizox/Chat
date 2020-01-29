@@ -1,6 +1,6 @@
 .Talk {
   display: flex;
-  width: 950px;
+  width: 1200px;
   max-width: calc(100% - 30px);
   min-width: 50%;
   height: calc(90vh - 30px);

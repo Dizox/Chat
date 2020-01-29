@@ -26,3 +26,10 @@ export function createRoom(room) {
     payload: room
   }
 }
+
+export function openUserList(flag) {
+  return {
+    type: 'OPEN_USER_LIST',
+    payload: flag
+  }
+}
