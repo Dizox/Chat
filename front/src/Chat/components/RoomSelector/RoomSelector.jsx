@@ -12,8 +12,9 @@ function RoomSelector({rooms, currentRoomId, handleSetRoom}) {
   return (
     <div className='RoomSelector'>
       {rooms.map(room => (
-        <label className='RoomSelector__item'>
+        <label className={room.id === currentRoomId ? 'RoomSelector__item selected' : 'RoomSelector__item'} >
           <input
+            className='RoomSelector__input'
             type="radio"
             name="room"
             value={room.id}

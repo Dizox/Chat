@@ -14,17 +14,17 @@ const initialState = {
   rooms: [{
     name: 'Room1',
     id: '1',
-    usersId: [5] 
+    usersId: [3, 5]
   },
   {
     name: 'Room2',
     id: '2',
-    usersId: [5] 
+    usersId: [3, 5]
   },
   {
     name: 'Room3',
     id: '3',
-    usersId: [5] 
+    usersId: [3, 5]
   }],
   messages: [
     { text: 'resretdf tfgutygu gftyu ', userId: 5, timestamp: new Date, roomId: 1 },

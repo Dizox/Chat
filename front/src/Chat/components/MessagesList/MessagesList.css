@@ -12,15 +12,18 @@
   align-items: flex-start;
   overflow-y: auto;
   margin-bottom: 30px;
-  padding-right: 15px;
+  padding: 0 15px;
 }
 
 .MessagesList__message {
-  display: inline;
-  margin: 10px 0;
+  max-width: 60%;
+  display: inline-flex;
+  flex-direction: column;
+  margin: 5px 0;
   padding: 10px;
   border: 1px solid black;
   border-radius: 10px;
+  word-wrap: break-word;
 }
 
 .MessagesList__message_my {
@@ -50,4 +53,18 @@
   background-color: #fff;
   border: 1px solid black;
   border-radius: 40px;
+}
+
+.MessagesList__text {
+  line-height: 1.3;
+}
+
+.MessagesList__date {
+  font-size: 14px;
+}
+
+.MessagesList__name {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 8px;
 }
