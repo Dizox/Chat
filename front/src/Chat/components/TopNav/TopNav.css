@@ -19,6 +19,11 @@
   font-weight: 700;
 }
 
+.TopNav__copyLink:hover {
+  border-color: #89ACE8;
+  box-shadow: 0 0 5px #89ACE8;
+}
+
 .TopNav__usersList {
   width: 32px;
   height: 32px;

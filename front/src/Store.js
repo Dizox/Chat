@@ -33,8 +33,8 @@ const initialState = {
     { text: 'rvhvchcvhch ', userId: 5, timestamp: new Date, roomId: 2 }
   ],
   users: [
-    { name: 'vasya', id: 5 },
     { name: 'petya', id: 3 },
+    { name: 'vasya', id: 5 },
   ],
   currentUserId: null,
   currentRoomId: 1,

@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: 'open sans', 'Helvetica Neue', Arial, sans-serif;
+  transition: 0.2s;
 }
 
 body {

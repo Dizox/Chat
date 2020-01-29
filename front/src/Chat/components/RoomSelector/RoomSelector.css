@@ -1,7 +1,7 @@
 .RoomSelector {
   width: 30%;
   height: 100%;
-  overflow-y: auto;
+  overflow-y: scroll;
   border-right: 2px solid #C5D0E6;
 }
 
@@ -17,15 +17,18 @@
   border-radius: 10px;
 }
 
-.RoomSelector__input {
-  display: none;
+.RoomSelector__item:hover, .RoomSelector__item:focus {
+  box-shadow: 0 0 3px #89ACE8;
+  border-color: #89ACE8;
 }
 
 .RoomSelector__item.selected {
   background-color: rgb(232, 234, 255);
-  font-weight: 700;
-}
-
-.RoomSelector__item.selected .RoomSelector__title {
   color: #7A93D6;
+  box-shadow: 0 0 5px #89ACE8;
+  font-weight: 700;
 } 
+
+.RoomSelector__input {
+  display: none;
+}
