@@ -15,14 +15,18 @@ function UsersList({ users, usersListIsOpen, room }) {
       
       <div className='UsersList__container'>
         <div className='UsersList__user'>       
-          {room.usersIds.map(userId => (
-            <div className='UsersList__name'>{users.find( ({ id }) => id === userId).name}</div>
-          ))}
+          {/* вставить потом сюда */}
         </div>
       </div>
     </div>
   )
 }
+
+/*
+{room.usersIds.map(userId => (
+  <div className='UsersList__name'>{users.find( ({ id }) => id === userId).name}</div>
+))}
+*/
 
 export default connect (
   ({ users, usersListIsOpen, rooms, currentRoomId}) => ({ 
