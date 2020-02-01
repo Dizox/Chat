@@ -7,7 +7,7 @@ cd Chat/front
 npm install
 npm start
 
-cd Chat/back
+cd Chat/server
 npm install
 npm start
 
